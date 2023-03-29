@@ -1,0 +1,119 @@
+.sidepanel {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+  
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+ }
+
+#home img {
+    width: 75px;
+    height: 75px;
+}
+
+#testing_screen img {
+    width: 200px;
+    height: 250px;
+}
+
+#testing_screen center img{
+    width: 75px;
+    height: 75px;
+}
+
+#contact img {
+    width: 75px;
+    height: 75px;
+}
+
+.text_box {
+    width: 750px;
+    background: whitesmoke;
+	padding: 10px;
+    margin-left: 260px;
+	float: none;
+	border-radius: 15px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#about {
+    box-shadow: 5px 5px 20px #7ca9c8;
+}
+
+#how_it_works {
+    box-shadow: 5px 5px 20px #7ca9c8;
+}
+
+#image_sections {
+    box-shadow: 5px 5px 20px #779da1;
+}
+
+#final_result {
+    box-shadow: 5px 5px 20px #779da1;
+}
+
+#contact_box {
+    box-shadow: 5px 5px 20px #80abad;
+}
+bac4c8
+#image_sections img {
+    width: 200px;
+    height: 250px;
+}
+
+#image_sections p {
+    color: #3c6e71;
+}
+
+#final_result {
+    background-color: #bac4c8;
+}
+
+#contact_box img {
+    width: 25px;
+    height: 25px;
+}
+
+#contact_box a {
+    color: #111111;
+}
